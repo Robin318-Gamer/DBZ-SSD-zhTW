@@ -148,6 +148,9 @@ pub struct Touch {
     in_battle: bool,
     /// The line of the frame rate and the sound buffer, told by the host; drawn while Show FPS is on.
     pub stats: Option<String>,
+    /// The debug tools are on (`--debug` or `SSD_DEBUG=1`, told by the host): only then do the Options offer Show
+    /// FPS and is the line drawn.
+    pub debug: bool,
     geo: Geometry,
     fingers: Vec<Finger>,
     pressed: [bool; 12],
@@ -239,6 +242,7 @@ impl Touch {
             slot: 1,
             in_battle: false,
             stats: None,
+            debug: false,
             geo,
             fingers: Vec::new(),
             pressed: [false; 12],
@@ -557,14 +561,17 @@ impl Touch {
                     false,
                 );
                 cell(&mut p, PBtn::OptReset, "Reset layout".into(), 1.0, 2.0, false);
-                cell(
-                    &mut p,
-                    PBtn::OptFps,
-                    format!("Show FPS: {}", if st.show_fps { "On" } else { "Off" }),
-                    0.0,
-                    3.0,
-                    false,
-                );
+                // A debug tool: left out (its place stays empty) without the debug tools.
+                if self.debug {
+                    cell(
+                        &mut p,
+                        PBtn::OptFps,
+                        format!("Show FPS: {}", if st.show_fps { "On" } else { "Off" }),
+                        0.0,
+                        3.0,
+                        false,
+                    );
+                }
                 cell(
                     &mut p,
                     PBtn::OptPicture,
@@ -1210,6 +1217,19 @@ mod tests {
         assert!(t.pressed()[4]);
         t.finger_motion(1, centre(&t, Btn::B));
         assert!(t.pressed()[5] && !t.pressed()[4]);
+    }
+
+    #[test]
+    fn the_options_offer_show_fps_only_with_the_debug_tools() {
+        let mut t = touch();
+        assert!(!t.debug, "the debug tools are off by default");
+        t.mode = Mode::Options;
+        let ids: Vec<PBtn> = t.panel().unwrap().buttons.iter().map(|b| b.id).collect();
+        assert!(!ids.contains(&PBtn::OptFps), "no Show FPS: {ids:?}");
+        assert!(ids.contains(&PBtn::OptPicture) && ids.contains(&PBtn::Back), "the rest stays");
+        t.debug = true;
+        let ids: Vec<PBtn> = t.panel().unwrap().buttons.iter().map(|b| b.id).collect();
+        assert!(ids.contains(&PBtn::OptFps), "Show FPS with the debug tools on: {ids:?}");
     }
 
     #[test]

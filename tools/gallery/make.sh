@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Makes the pictures of the README's comparison gallery (docs/media/cmp-*.png) from your own ROM.
+# Makes the pictures of the comparison gallery of docs/ENGINE.en.md (docs/media/cmp-*.png) from your own ROM.
 #
 #   tools/gallery/make.sh [--exe target/release/ssd-recompiled.exe] [--replays .work/replays] [--out docs/media]
 #
-# Needs the game with its ROM cached (README, "Getting started"), the HD pack installed (the Remastered
+# Needs the game with its ROM cached (docs/ENGINE.en.md, "Getting started"), the HD pack installed (the Remastered
 # pictures use it), and the reference replays (`cargo run --release -p xtask -- make-replays`, and
 # tools/saves/secrets.sh for the `secret-*` ones). tools/gallery/frames.txt says what each picture is.
 # The game draws offscreen (--ui-snapshot): no window is opened. The PNGs the game writes are stored
