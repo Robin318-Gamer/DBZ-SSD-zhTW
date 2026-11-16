@@ -156,7 +156,9 @@ pub fn paint(p: &Painter, t: &Touch) {
     if let Some(band) = geo.band {
         p.rect_filled(band, 0.0, BAND);
     }
-    if t.settings.show_fps
+    // Show FPS is a debug tool: a setting saved on before is not drawn without the debug tools.
+    if t.debug
+        && t.settings.show_fps
         && let Some(stats) = &t.stats
     {
         // At the top in the middle, clear of L and R; drawn even while the controls are hidden.
