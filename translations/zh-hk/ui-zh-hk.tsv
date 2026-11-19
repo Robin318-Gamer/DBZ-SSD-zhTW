@@ -1,7 +1,7 @@
-# 繁體中文（香港）譯文，改編自 Ming 嘅繁體中文（台灣）譯文（https://github.com/lming888/DBZ-SSD-zhTW）。授權：CC BY-NC-SA 4.0，使用請標示出處。
+# 繁體中文（香港）譯文 © 2026 Ming（https://github.com/lming888）。授權：CC BY-NC-SA 4.0，使用請標示出處。
 #name	繁體中文（香港）
 #font	LXGWWenKaiTC
-# The HD menus' words in Traditional Chinese (Taiwan), for the port's ui_text.rs (ui-zh-tw.tsv: the port reads only
+# The HD menus' words in Traditional Chinese (Hong Kong), for the port's ui_text.rs (ui-zh-hk.tsv: the port reads only
 # that name). english<TAB>chinese; `{}` is a part the menus fill in, carried over in order; `screen/english` is a
 # row for one screen. This file is generated: a change goes into its source, not here.
 # Keys: the HD menus' strings of upstream 3af07d0.
@@ -11,14 +11,14 @@ Talk	交談
 Look	調查
 Fly	舞空術
 Land	降落
-Item	咭
+Item	卡牌
 Menu	選單
 Cards	戰鬥卡
 Status	能力
 Order	排序
 Save	存檔
 Text	速度
-Items	咭
+Items	卡牌
 Use	使用
 Drop	丟棄
 This cannot be dropped.	不能丟掉！
@@ -27,12 +27,13 @@ Yes	是
 No	否
 Battle	戰鬥
 Menus	選單
-The story's text and the HD menus in Enhanced mode, from the translation in the data folder.	加強模式的劇情文字與 HD 選單，取自資料夾裡的譯文。繁體中文（香港）翻譯：改編自 Ming Liu 嘅台灣譯文
+The story's text and the HD menus in Enhanced mode, from the translation in the data folder.	加強模式的劇情文字與 HD 選單，取自資料夾裡的譯文。繁體中文翻譯：Ming Liu
 Fast	快
 Slow	慢
 Text speed	訊息速度
 Classic	經典模式
 Enhanced	加強模式
+Traditional Chinese (Hong Kong),	繁體中文（香港），
 Data packs	資料包
 Packs	資料包
 The data packs: which are on, their order, and the chapters they start.	資料包：開啟哪些、排列順序，以及可從中開始的章節。
@@ -80,7 +81,7 @@ Talk to the person ahead.	和前面的人交談。
 Search the ground nearby.	調查附近的地面。
 Take off and fly the map.	起飛，在地圖上飛行。
 Land where the party flies.	在飛到的地方降落。
-Use the items you carry.	使用身上的咭。
+Use the items you carry.	使用身上的卡牌。
 Cards, status and saves.	戰鬥卡、能力與存檔。
 Options	選項
 Cheats	作弊
@@ -113,7 +114,7 @@ Not usable from the menu	無法從選單使用
 Usable: in battle	可用：戰鬥中
 Usable: on the map	可用：地圖上
 Usable: on the map and in battle	可用：地圖上與戰鬥中
-A card as the game deals it	遊戲發下的咭
+A card as the game deals it	遊戲發下的卡牌
 Z in attack	攻擊為Ｚ
 Z in defence	防禦為Ｚ
 Z in attack and defence	攻擊與防禦為Ｚ
@@ -163,7 +164,7 @@ Defence	防禦
 EXP	經驗值
 EXP gained after every battle.	每場戰鬥後獲得的經驗值。
 Encounters	遇敵
-Endless items	咭用不完
+Endless items	卡牌用不完
 Enemies	敵人
 Enemy power	敵人強度
 Every card you draw carries a Z.	抽到的每張卡都帶Ｚ。
@@ -181,7 +182,7 @@ On	開
 Random battles	隨機戰鬥
 Resources	資源
 Turn every cheat off.	關閉所有作弊。
-Using an item does not use it up.	使用咭後不會消耗。
+Using an item does not use it up.	使用卡牌後不會消耗。
 Who gets the Z cards.	誰拿到Ｚ卡。
 Whole party	全隊
 Z cards	Ｚ卡
@@ -195,9 +196,9 @@ unlocked	已解鎖
 Atk {}	攻 {}
 Def {}	防 {}
 Both {}	兩者 {}
-Item spawner	咭產生器
+Item spawner	卡牌產生器
 Zeni from selling and from the story, multiplied.	賣東西與劇情得到的金錢加倍。
-Put any object in the bag: A opens the list.	把任何咭放進背包：按 A 開啟清單。
+Put any object in the bag: A opens the list.	把任何卡牌放進背包：按 A 開啟清單。
 Open	開啟
 Gameplay	遊玩
 Video	畫面
@@ -279,7 +280,7 @@ None	無
 North	上方鍵
 On: in a battle only the d-pad and big A and B show, and the full layout comes back after it. Off: the MIN and FULL buttons switch by hand.	開：戰鬥中只顯示十字鍵與大 A、B，戰鬥結束後恢復完整版面。關：用「精簡」與「完整」鍵手動切換。
 On: the touch buttons hide while a gamepad is connected.	開：接上手把時隱藏觸控按鈕。
-On: the touch buttons hide while a gamepad is connected; a tap brings them back. Select + Start held 2 s opens the MENU from the pad.	開：接上手把時隱藏觸控按鈕，點一下屏幕就會再出現。在手把上按住 Select 與 Start 兩秒會開啟觸控「選單」。
+On: the touch buttons hide while a gamepad is connected; a tap brings them back. Select + Start held 2 s opens the MENU from the pad.	開：接上手把時隱藏觸控按鈕，點一下螢幕就會再出現。在手把上按住 Select 與 Start 兩秒會開啟觸控「選單」。
 Opacity	不透明度
 Pause	暫停
 Pauses the game. Press A, then the new key. Esc cancels, Backspace clears.	暫停遊戲。按 A 後再按新的鍵，Esc 取消，Backspace 清除。
@@ -385,7 +386,7 @@ Dark lines between the lines of the original picture, as on a television.	在原
 Display	顯示
 Filters	濾鏡
 Full	完整
-Fullscreen	全屏幕
+Fullscreen	全螢幕
 HD art	HD 美術
 Off draws the original sprites and tiles, in the Look. Applied at the next start (Android: MENU > Game > Restart game).	關：改畫原版的角色與圖塊，並套用「外觀」設定。下次啟動時生效（Android：「選單 > 遊戲 > 重新開始遊戲」）。
 How many times the PPU picture is redrawn in HD (2 to 8). Higher looks finer and costs more. The change asks for confirmation.	以 HD 重繪 PPU 畫面的倍數（2 到 8）。越高越細緻、越耗效能。變更時會要求確認。
@@ -400,9 +401,9 @@ Smooth	平滑
 Soft	柔和
 Strong	強
 The size of the picture the game draws at this scale and aspect.	此倍率與比例下遊戲畫面的大小。
-Waits for the screen's refresh before showing a frame: no tearing, a little more delay.	等屏幕更新後才顯示畫面：不會撕裂，但延遲稍多。
+Waits for the screen's refresh before showing a frame: no tearing, a little more delay.	等螢幕更新後才顯示畫面：不會撕裂，但延遲稍多。
 Window	視窗
-Window or fullscreen on the desktop. The change asks for confirmation.	桌面上以視窗或全屏幕顯示。變更時會要求確認。
+Window or fullscreen on the desktop. The change asks for confirmation.	桌面上以視窗或全螢幕顯示。變更時會要求確認。
 V-Sync	垂直同步
 CHOOSE A MODE	選擇模式
 CHOOSE THE PATCH	選擇補丁
@@ -466,7 +467,7 @@ Reset layout	重設版面
 Show FPS: {}	顯示 FPS：{}
 Picture: {}	畫面：{}
 Standard	標準
-Full screen	全屏幕
+Full screen	全螢幕
 Saved on this device only, in ssd.settings. Auto battle switches to the minimal layout in fights.	只存在這台裝置的 ssd.settings。「戰鬥自動切換」開啟時，戰鬥中會換成精簡版面。
 EDIT LAYOUT	編輯版面
 Reset to default	恢復預設
@@ -485,7 +486,7 @@ touch zone	觸控區
 Not installed	未安裝
 Installed, {} GB	已安裝，{} GB
 Revision {}, {} GB	第 {} 版，{} GB
-This game needs your own copy of Super Saiya Densetsu. The file stays on this device and is never uploaded.	這個遊戲需要你自己的《超撒亞傳說》ROM。檔案只留在這台裝置，不會上傳。
+This game needs your own copy of Super Saiya Densetsu. The file stays on this device and is never uploaded.	這個遊戲需要你自己的《超賽亞傳說》ROM。檔案只留在這台裝置，不會上傳。
 This is the Japanese Rev 1 ROM. It needs the English v1.02 patch, the file dbz102.ips. Pick it to go on.	這是日版 Rev 1 ROM，需要英文版 v1.02 補丁 dbz102.ips。選擇補丁檔以繼續。
 Enhanced mode uses the HD art pack. Pick the file hd-pack.zip. It takes about 0.9 GB of free space once installed.	加強模式使用 HD 美術包。請選擇 hd-pack.zip，安裝後約佔 0.9 GB 空間。
 The translation zh-tw.tsv,	繁體中文（台灣），
@@ -514,7 +515,7 @@ unknown ROM (CRC32 {}): expected the Klepto v1.02 English translation or the Jap
 unsupported ROM size {} bytes: expected a multiple of 32 KiB, optionally plus a 512-byte copier header	不支援的 ROM 大小 {} 位元組：應為 32 KiB 的倍數，可另加 512 位元組的燒錄器標頭
 patched ROM has CRC32 {}, not the expected Klepto v1.02 result: wrong patch file?	套用補丁後的 CRC32 是 {}，不是 Klepto v1.02 的結果：補丁檔是否選錯？
 invalid IPS patch: {}	無效的 IPS 補丁：{}
--- Item spawner --	-- 咭產生器 --
+-- Item spawner --	-- 卡牌產生器 --
 In bag	背包中
 STORY	劇情
 -- Add to the bag --	-- 放進背包 --
@@ -550,13 +551,13 @@ mods.toml was not written: {}	無法寫入 mods.toml：{}
 Hand {}/{}	手牌 {}/{}
 Kai	界
 World	世界
-Kami	神
+Kami	天神
 God	神明
 Ma	魔
 Demon	惡魔
 Waku	惑
 Doubt	迷惑
-Ginyu	基紐
+Ginyu	傑紐
 Force	特戰隊
 Hitsu	必
 Sure	必殺技
@@ -566,14 +567,14 @@ Any	全
 Wild	萬用
 Attack	攻擊
 Favoured by (+25% power)	加成對象（威力 +25%）
-A {} card: nobody in the party hits harder with it.	流派「{}」的咭：隊伍裡沒有人能用它提升威力。
-A {} card: everyone hits 25% harder with it.	流派「{}」的咭：全員使用時威力提升 25%。
-A {} card: {} of the party hit 25% harder with it.	流派「{}」的咭：隊伍裡有 {} 人使用時威力提升 25%。
-A {} card: {}, {}, {}, {} and {} hit 25% harder with it.	流派「{}」的咭：{}、{}、{}、{}和{}使用時威力提升 25%。
-A {} card: {}, {}, {} and {} hit 25% harder with it.	流派「{}」的咭：{}、{}、{}和{}使用時威力提升 25%。
-A {} card: {}, {} and {} hit 25% harder with it.	流派「{}」的咭：{}、{}和{}使用時威力提升 25%。
-A {} card: {} and {} hit 25% harder with it.	流派「{}」的咭：{}和{}使用時威力提升 25%。
-A {} card: {} hits 25% harder with it.	流派「{}」的咭：{}使用時威力提升 25%。
+A {} card: nobody in the party hits harder with it.	流派「{}」的卡牌：隊伍裡沒有人能用它提升威力。
+A {} card: everyone hits 25% harder with it.	流派「{}」的卡牌：全員使用時威力提升 25%。
+A {} card: {} of the party hit 25% harder with it.	流派「{}」的卡牌：隊伍裡有 {} 人使用時威力提升 25%。
+A {} card: {}, {}, {}, {} and {} hit 25% harder with it.	流派「{}」的卡牌：{}、{}、{}、{}和{}使用時威力提升 25%。
+A {} card: {}, {}, {} and {} hit 25% harder with it.	流派「{}」的卡牌：{}、{}、{}和{}使用時威力提升 25%。
+A {} card: {}, {} and {} hit 25% harder with it.	流派「{}」的卡牌：{}、{}和{}使用時威力提升 25%。
+A {} card: {} and {} hit 25% harder with it.	流派「{}」的卡牌：{}和{}使用時威力提升 25%。
+A {} card: {} hits 25% harder with it.	流派「{}」的卡牌：{}使用時威力提升 25%。
 Dealing the hand...	發牌中……
 Left/Right  Browse	左右  瀏覽
 Up/Down  Member	上下  隊員
@@ -607,15 +608,15 @@ Slot {} holds a game. Saving puts the one you are in over it.	存檔欄 {} 已�
 A  Save	A  存檔
 Replaced when you save	存檔時會被取代
 Overwrite slot {}?	要覆蓋存檔欄 {} 嗎？
-LV {}  ·  {}P  ·  {} items	ＬＶ {}  ·  {}P  ·  {} 張咭
-LV {}  ·  {}P  ·  {} item	ＬＶ {}  ·  {}P  ·  {} 張咭
+LV {}  ·  {}P  ·  {} items	ＬＶ {}  ·  {}P  ·  {} 張卡牌
+LV {}  ·  {}P  ·  {} item	ＬＶ {}  ·  {}P  ·  {} 張卡牌
 {}, LV {}	{}，ＬＶ {}
 First island	最初的小島
 King Kai's planet	界王星
 Island cave	小島上的洞窟
-Piccolo's cave	比克的洞窟
+Piccolo's cave	笛子魔童的洞窟
 Earth	地球
-Namek	那美星
+Namek	娜美星
 Spaceship	太空船
 LV {}	ＬＶ {}
 Latency	延遲
@@ -641,18 +642,18 @@ Left Right  Change      Up Down  Row	左右  調整      上下  選列
 1 change   	1 項變更   
 Nothing here.	這裡沒有東西。
 new	新增
-X  Add object	X  加入咭
+X  Add object	X  加入卡牌
 Y  Remove stack	Y  移除這疊
 Left Right  Count      X  Add      Y  Remove      L R  Tab      B  Back	左右  數量      X  加入      Y  移除      L R  分頁      B  返回
-Add object	加入咭
+Add object	加入卡牌
 ×N in the bag	×N：背包中的張數
-Red frame: the story checks this object.   Orange: under the cursor.	紅框：劇情會檢查這張咭。   橘色：游標所在。
+Red frame: the story checks this object.   Orange: under the cursor.	紅框：劇情會檢查這張卡牌。   橘色：游標所在。
 max 99	最多 99
 one at a time	一次一張
 Adding	加入
 Removing	移除
 Remove anyway	仍要移除
-Added units join the stack of the object,	加入的張數會併入同一張咭的那疊，
+Added units join the stack of the object,	加入的張數會併入同一張卡牌的那疊，
 or take a free slot.	或佔用一個空格。
 A  Choose     Left Right  Add anyway or Cancel     B  Back	A  選擇     左右  仍要加入或取消     B  返回
 A  Add     Left Right  How many     Up Down  L R  Pick     Y  Back to 1     B  Back to the bag	A  加入     左右  數量     上下  L R  挑選     Y  回到 1     B  回到背包
@@ -660,7 +661,7 @@ block a scene or run one twice. Save a copy	卡住劇情，或讓某段劇情重
 of the slot first: B on the sheet writes nothing.	複製一份：在寫入確認頁按 B 不會寫入。
 Nothing changed.	沒有任何變更。
 No table value for this level.	這個等級在表中沒有數值。
-Bag full: no slot left for a new object.	背包已滿：沒有空格可放新的咭。
+Bag full: no slot left for a new object.	背包已滿：沒有空格可放新的卡牌。
 Nothing was written.	沒有寫入任何東西。
 The slot could not be written.	無法寫入存檔欄。
 bag, cheats and options of the slot keep their link.	背包、作弊與選項的對應都會保留。
@@ -709,12 +710,12 @@ was {}	原為 {}
 Stack {} of {}  ·  {}	這疊 {}／{}  ·  {}
 In the bag: ×{}  >  ×{}	背包中：×{}  >  ×{}
 {} of {} stacks used.	已用 {}／{} 疊。
-The story checks this object. {} it can	劇情會檢查這張咭。{}它可能
+The story checks this object. {} it can	劇情會檢查這張卡牌。{}它可能
  LV {} > {}	 ＬＶ {} > {}
  (BP {} > {})	 （ＢＰ {} > {}）
 BP {}	ＢＰ {}
 Slot {}	存檔欄 {}
-Object {}	咭 {}
+Object {}	卡牌 {}
 {}, {}, {} ({} x {}), Scanlines {}, CRT {}	{}，{}，{}（{} x {}），掃描線：{}，CRT 濾鏡：{}
 {}, {}, {} ({} x {}), Scanlines {}	{}，{}，{}（{} x {}），掃描線：{}
 {}, {}, {} ({} x {}), CRT {}	{}，{}，{}（{} x {}），CRT 濾鏡：{}
