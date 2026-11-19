@@ -2450,6 +2450,9 @@ fn windowed_loop(
                 Event::GamepadButtonUp { button, .. } => {
                     input.gamepad_button(&state.bindings, button, false);
                 }
+                Event::GamepadAxisMotion { axis, value, .. } => {
+                    input.gamepad_axis(axis, value);
+                }
                 Event::GamepadAdded { which, .. } => {
                     if let Some(subsystem) = &gamepad_subsystem {
                         match subsystem.open(which) {
